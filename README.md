@@ -1,1 +1,1 @@
-# investigation-correct-rate
+# 多腕バンディット問題(人間用)
