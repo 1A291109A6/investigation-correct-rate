@@ -10,9 +10,11 @@
         <h2>説明</h2>
         <p>ここでは、選択肢が与えられます。選択肢を選ぶとその選択肢に対応するランダムな数値が表示されます。選択肢はそれぞれ平均の値が決まっています。このような条件で10回選択を行い、合計した値が最も大きくなるように考えて選択して下さい。</p>
         <h2>選択肢</h2>
-        <input id="button1" type="button" value=" A " onclick="alertButton()">
-        <input id="button1" type="button" value=" B " onclick="alertButton()">
-        <input id="button1" type="button" value=" C " onclick="alertButton()">
-        <input id="button1" type="button" value=" D " onclick="alertButton()">
+        <button onclick="generateRandomNumber(0,1)"> A </button>
+        <button onclick="generateRandomNumber(1,1)"> B </button>
+        <button onclick="generateRandomNumber(2,1)"> C </button>
+        <button onclick="generateRandomNumber(3,1)"> D </button>
+        <p id="result"></p>
+        <script src="./js/project_file.js"></script>
     </body>
 </html>
